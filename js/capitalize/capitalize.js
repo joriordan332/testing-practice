@@ -1,5 +1,9 @@
 const capitalize = function (string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
+  let caps = string[0].toUpperCase()
+  let slice = string.slice(1);
+  let lower = slice.toLowerCase();
+  
+  return caps + lower
   };
   
 
